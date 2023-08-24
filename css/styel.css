@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e3e6e6;
+}
+.bg-dark{
+    background-color: black;
+}
+
+.llogo{
+    height:"50px" ;
+    width:"110px";
+}
+
+/*.border{
+    border: none;
+    
+}
+.boder:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}*/
+.nav-hello{
+    border: none;
+    margin: 3px;
+    cursor: pointer;
+}
+.nav-hello:hover{
+    border: 1px solid white;
+}
+
+
+.search{
+    height: 45px;
+    width: 47%;
+    /*margin-top: 3px;
+    margin-bottom: 3px;*/
+    border: none;
+}
+.search:hover{
+    border: 3px solid #febd69;
+}
+.btn-nav{
+    background-color:#febd69;
+    width: 80px;
+    border: none;
+    
+}
+.input{
+    width: 1200px;
+}
+.bg-nav{
+    background-color: #232f3e;
+    margin-top: -20px;
+}
+.btn1{
+    background-color:  #232f3e;
+    border: none;   
+}
+.btn1:hover{
+border: 1px solid white;
+} 
+.container1{
+    background-image: url(./../images/bg-img.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+   
+}
+.card1{
+    height: 400px;
+     width: 330px; 
+    position: absolute;
+    top: 350px;
+
+}
+.color{
+    background-color: white;
+}
+.link{
+    text-decoration:none;
+    font-size: 14px;
+    background-color: white;
+}
+.link:hover{
+    color: orangered;
+    border-bottom: orangered;
+}
+.footer{
+   background-color: #232f3e;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .nav-hello{
+        border: none;
+        margin: 2px;
+        cursor: pointer;
+    }
+    .nav-hello:hover{
+        border: 1px solid white;
+    }
+   
+    .search{
+        height: 35px;
+        width: 30%;
+        /*margin-top: 3px;
+        margin-bottom: 3px;*/
+        border: none;
+    }
+    .search:hover{
+        border: 3px solid #febd69;
+    }
+    .btn-nav{
+        background-color:#febd69;
+        width: 80px;
+        border: none;
+        
+    }
+    .input{
+        width: 1200px;
+    }
+    .bg-nav{
+        background-color: #232f3e;
+        margin-top: -20px;
+    }
+    .btn1{
+        background-color:  #232f3e;
+        border: none;   
+    }
+    .btn1:hover{
+    border: 1px solid white;
+    } 
+    .container1{
+        background-image: url(./../images/bg-img.jpg);
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+       
+    }
+    .card1{
+        height: 400px;
+         width: 330px; 
+        position: absolute;
+        top: 350px;
+      
+        
+    }
+   
+}
